@@ -49,13 +49,13 @@ a.menu {
 a.menu-footer {
     color: gray;
 }
-.logo-1 {
+.logotype-1 {
     color: black;
 }
-.logo-2 {
+.logotype-2 {
     color: white;
 }
-.logo-1, .logo-2 {
+.logotype-1, .logotype-2 {
     font-size: x-large;
     font-weight: 700;
 }
