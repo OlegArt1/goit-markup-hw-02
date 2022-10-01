@@ -1,119 +1,118 @@
 body {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 :root {
     --brand-color: rgb(33, 150, 243);
+    --black-color: #212121;
+    --gray-color: #757575;
+    --white-color: white;
+    --align-center: center;
+    --text-transform: uppercase;
 }
 .logotype {
-    width: 145px;
-    height: 31px;
+    color: var(--black-color);
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    line-height: 31px;
+    line-height: 1.94;
     letter-spacing: 0.03em;
-}
-h1 {
-    color: white;
-    font-size: 44px;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
-}
-h2 {
-    color: #212121;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-h3 {
-    color: black;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-a {
-    color: black;
     text-decoration: none;
 }
-.menu {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.title {
+    color: var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 3.75;
+    letter-spacing: 0.06em;
+    text-align: var(--align-center);
+    text-transform: var(--text-transform);
 }
-    .menu:hover {
+.title-2 {
+    color: var(--black-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.6;
+    text-align: var(--align-center);
+    letter-spacing: 0.03em;
+}
+.title-3 {
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: var(--text-transform);
+}
+.menu {
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-menu {
+    color: var(--gray-color);
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+    .menu:hover, .contact-menu:hover {
         color: var(--brand-color);
     }
-    .menu:focus, .button-menu:focus, .button:focus {    
+    .menu:focus, .button-menu:focus, .button:focus {
         color: rgb(85, 72, 99);
     }
 .fon {
-    width: 100%;
     background-color: #2f303a;
 }
 .button {
-    width: 216px;
-    height: 50px;
-    color: white;
+    color: var(--white-color);
     background-color: var(--brand-color);
     border: 5px solid var(--brand-color);
     border-radius: 4px;
-    text-align: center;
+    text-align: var(--align-center);
     align-items: center;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
 .text {
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
+    color: var(--gray-color);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
 }
 .name {
-    color: #212121;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    color: var(--black-color);
+    text-align: var(--align-center);
     font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .profesion {
-    color: #757575;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    color: var(--gray-color);
+    text-align: var(--align-center);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .button-menu {
-    width: 85px;
-    height: 38px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    text-align: var(--align-center);
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     cursor: pointer;
 }
     .button-menu:hover {
-        width: 88px;
-        color: white;
+        color: var(--white-color);
         background-color: var(--brand-color);
         border: 5px solid var(--brand-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -122,36 +121,30 @@ a {
         border-radius: 4px;
     }
 .tovar {
-    width: 342px;
-    height: 36px;
-    color: #212121;
-    line-height: 36px;
+    color: var(--black-color);
+    line-height: 2.25;
     letter-spacing: 0.06em;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 .type {
-    width: 322px;
-    height: 30px;
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
+    color: var(--gray-color);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
 .address {
-    color: white;
+    color: var(--white-color);
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .contact {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
     .address:hover, .contact:hover {
@@ -161,10 +154,5 @@ a {
         color: rgb(85, 72, 99);
     }
 .footer {
-    width: 100%;
-    height: auto;
     background-color: rgb(47, 48, 58);
-}
-hr {
-    opacity: 0.2;
 }
