@@ -1,87 +1,160 @@
 body {
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 :root {
     --brand-color: rgb(33, 150, 243);
 }
-hr {
-    opacity: 0.2;
+.logotype {
+    width: 145px;
+    height: 31px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 h1 {
     color: white;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
 }
 h2 {
-    font-size: 30px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 h3 {
     color: black;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 a {
     color: black;
-    font-weight: 500;
     text-decoration: none;
 }
-a.menu {
-    font-size: 15px;
-    font-weight: 600;
+.menu {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
-    a.menu:hover, a.menu-footer:hover, a.address:hover {
+    .menu:hover {
         color: var(--brand-color);
     }
-    a.menu:focus, .button-menu:focus, .button:focus {
+    .menu:focus, .button-menu:focus, .button:focus {    
         color: rgb(85, 72, 99);
     }
-.button, .button-menu:hover {
-    color: white;
-    background-color: var(--brand-color);
-    border: 5px solid var(--brand-color);
-    text-align: center;
-    font-weight: 400;
-}
-.button-menu {
-    border: 1px solid black;
-}
-a.menu-footer {
-    color: gray;
-}
-.logotype-1 {
-    color: black;
-}
-.logotype-2 {
-    color: white;
-}
-.logotype-1, .logotype-2 {
-    font-size: x-large;
-    font-weight: 700;
-}
 .fon {
     width: 100%;
     background-color: #2f303a;
 }
-.button-menu {
+.button {
+    width: 216px;
+    height: 50px;
+    color: white;
+    background-color: var(--brand-color);
+    border: 5px solid var(--brand-color);
+    border-radius: 4px;
     text-align: center;
-    font-weight: 500;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
-.text, .profesion {
-    color: grey;
+.text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 .name {
-    font-weight: 700;
-}
-.name, .profesion {
+    color: #212121;
     text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
 }
+.profesion {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+.button-menu {
+    width: 85px;
+    height: 38px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+    .button-menu:hover {
+        width: 88px;
+        color: white;
+        background-color: var(--brand-color);
+        border: 5px solid var(--brand-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
 .tovar {
+    width: 342px;
+    height: 36px;
+    color: #212121;
+    line-height: 36px;
+    letter-spacing: 0.06em;
     font-weight: 700;
+    font-size: 18px;
+}
+.type {
+    width: 322px;
+    height: 30px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
 .address {
-    color: gray;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
+.contact {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+    .address:hover, .contact:hover {
+        color: var(--brand-color);
+    }
+    .address:focus, .contact:focus {
+        color: rgb(85, 72, 99);
+    }
 .footer {
+    width: 100%;
+    height: auto;
     background-color: rgb(47, 48, 58);
+}
+hr {
+    opacity: 0.2;
 }
